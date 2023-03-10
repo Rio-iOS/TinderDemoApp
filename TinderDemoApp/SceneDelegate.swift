@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         self.window = UIWindow(windowScene: scene)
         
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = HomeViewController()
         
         self.window?.makeKeyAndVisible()
     }
